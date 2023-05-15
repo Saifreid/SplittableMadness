@@ -9,3 +9,5 @@ and a button to get the count of whatever word it typed into the text box. Under
 text box 3 things are always kept track of the length of the left list, the length of the
 right list, and the last removed item which will read N/A if nothing has been removed since
 running the program.
+
+I can run the app in intelliJ but for some reason I'm having errors when I run it in VSCode
