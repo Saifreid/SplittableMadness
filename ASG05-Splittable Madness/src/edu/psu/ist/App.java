@@ -6,6 +6,7 @@ import edu.psu.ist.model.UtilListImpl;
 import edu.psu.ist.view.SplitListView;
 
 public class App {
+
     public static void main(String[] args) {
 
         ISplittableList<String> model = new UtilListImpl<>();

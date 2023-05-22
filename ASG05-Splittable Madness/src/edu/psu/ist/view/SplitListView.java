@@ -5,15 +5,15 @@ import java.awt.*;
 
 /**
  * This is the view for the splittable list application. As per the
- * MVC architectural pattern, no business logic is found here.
+ * MVC architectural pattern, no business logic is found here (all view focused)
  * <p>
- * So this class just contains some boilerplat swing setup code for the
+ * So this class just contains some boilerplate swing setup code for the
  * application frame and layout logic for the buttons. The class also provides
- * accessors for the controls needed in
+ * accessors for the controls needed by
  * {@link edu.psu.ist.controller.SplitListController}.
  * <p>
- * <b>NB:</b> this class was updated to manually build the GUI with
- * swing (previously the formbuilder was used).
+ * <b>NB:</b> this class was updated such that it is manually built using raw
+ * swing components (as opposed to the formbuilder).
  */
 public class SplitListView extends JFrame {
 
