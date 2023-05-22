@@ -6,14 +6,17 @@ import edu.psu.ist.model.UtilListImpl;
 import edu.psu.ist.view.SplitListView;
 
 public class App {
-    public static void main(String[] args) { // in App.java
+
+    public static void main(String[] args) {
 
         ISplittableList<String> model = new UtilListImpl<>();
 
-        SplitListView view = new SplitListView();
+        // pass in the toString for the splittable list (we don't hardcode it in
+        // the view class since we don't know what shape it might take in
+        // UtilListImpl)
+        SplitListView view = new SplitListView(model.toString());
         SplitListController controller =
                 new SplitListController(model, view);
-        view.setVisible(true);
     }
 }
 
